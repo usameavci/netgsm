@@ -1,0 +1,23 @@
+{
+    "name": "phpuzem/sms",
+    "description": "Netgsm Sms Paketi",
+    "keywords": [
+        "sms",
+        "netgsm"
+    ],
+    "homepage": "https://github.com/phpuzem/netgsm",
+    "authors": [
+        {
+            "name": "Halil Coşdu",
+            "email": "info@phpuzem.com"
+        }
+    ],
+    "license": "MIT License",
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "Phpuzem\\Netgsm\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
