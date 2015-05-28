@@ -1,5 +1,7 @@
 # Netgsm Sms Paketi
 
+Bu paketin kullanılabilmesi için Netgsm ```https://www.netgsm.com.tr/``` firmasına üye olunup, php api desteği açtırılmalıdır.
+
 Komut satırından bu kodu çalıştırınız:
 ```
 composer require phpuzem/sms
