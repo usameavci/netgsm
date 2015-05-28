@@ -3,7 +3,10 @@
     "description": "Netgsm Sms Paketi",
     "keywords": [
         "sms",
-        "netgsm"
+        "netgsm",
+        "laravel 5",
+        "sms api",
+        "baslikli sms"
     ],
     "homepage": "https://github.com/phpuzem/netgsm",
     "authors": [
@@ -19,5 +22,5 @@
             "Phpuzem\\Netgsm\\": "src"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
