@@ -22,5 +22,5 @@
             "Phpuzem\\Netgsm\\": "src"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
