@@ -1,4 +1,4 @@
-# Netgsm Sms Paketi
+# Laravel 5 Netgsm Sms Paketi
 
 Bu paketin kullanılabilmesi için Netgsm ```https://www.netgsm.com.tr/``` firmasına üye olunup, php api desteği açtırılmalıdır.
 
