@@ -6,7 +6,8 @@
         "netgsm",
         "laravel 5",
         "sms api",
-        "baslikli sms"
+        "baslikli sms",
+        "laravel"
     ],
     "homepage": "https://github.com/phpuzem/netgsm",
     "authors": [
