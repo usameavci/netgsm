@@ -4,7 +4,7 @@ Bu paketin kullanılabilmesi için Netgsm ```https://www.netgsm.com.tr/``` firma
 
 Komut satırından bu kodu çalıştırınız:
 ```
-composer require phpuzem/sms
+composer require phpuzem/sms dev-master
 ```
 
 ```config/app.php``` dosyasına aşağıda bulunan satırları ekliyoruz.
