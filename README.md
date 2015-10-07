@@ -15,7 +15,7 @@ return array(
     'providers' => array(
         // ...
 
-        'Phpuzem\Netgsm\SmsServiceProvider',
+        Phpuzem\Netgsm\SmsServiceProvider::class,
     ),
 
     // ...
@@ -23,7 +23,7 @@ return array(
     'aliases' => array(
         // ...
 
-        'Sms' => 'Phpuzem\Netgsm\Facades\SmsFacade',
+        'Sms' => Phpuzem\Netgsm\Facades\SmsFacade::class,
     ),
 );
 ```
