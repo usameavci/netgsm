@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/busayo/laravel-volt/v/stable.svg)](https://packagist.org/packages/phpuzem/sms)
 [![Latest Unstable Version](https://poser.pugx.org/busayo/laravel-volt/v/unstable.svg)](https://packagist.org/packages/phpuzem/sms)
-[![License](https://poser.pugx.org/phpuzem/sms/license.svg)](LICENSE.md)
+[![License](https://poser.pugx.org/phpuzem/sms/license.svg)](LICENSE)
 [![Total Downloads](https://poser.pugx.org/phpuzem/sms/d/total.png)](https://packagist.org/packages/phpuzem/sms)
 
 
