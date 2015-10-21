@@ -1,5 +1,10 @@
 # Laravel 5 Netgsm Sms Paketi
 
+[![Latest Stable Version](https://poser.pugx.org/busayo/laravel-volt/v/stable.svg)](https://packagist.org/packages/phpuzem/sms)
+[![Latest Unstable Version](https://poser.pugx.org/busayo/laravel-volt/v/unstable.svg)](https://packagist.org/packages/phpuzem/sms)
+[![License](https://poser.pugx.org/busayo/laravel-volt/license.svg)](LICENSE.md)
+[![Total Downloads](https://img.shields.io/packagist/dt/busayo/laravel-volt.svg?style=flat-square)](https://packagist.org/packages/phpuzem/sms)
+
 Bu paketin kullanılabilmesi için Netgsm ```https://www.netgsm.com.tr/``` firmasına üye olunup, php api desteği açtırılmalıdır.
 
 Komut satırından bu kodu çalıştırınız:
