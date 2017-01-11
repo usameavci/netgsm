@@ -27,7 +27,7 @@ class SmsManagement {
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_HTTPHEADER, Array("Content-Type: text/xml"));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, Array("Content-Type: text/xml; charset=utf-8"));
         curl_setopt($ch, CURLOPT_TIMEOUT, 30);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $xmlData);
         $result = curl_exec($ch);
@@ -58,7 +58,7 @@ class SmsManagement {
                 break;
         }
         
-        $xml = "<?xml version='1.0' encoding='iso-8859-9'?>
+        $xml = "<?xml version='1.0' encoding='utf-8'?>
                             <mainbody>
                                 <header>
                                     <company dil='TR'>NETGSM</company>
