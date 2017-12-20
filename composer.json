@@ -1,24 +1,30 @@
 {
-    "name": "phpuzem/sms",
+    "name": "usameavci/netgsm-sms",
     "description": "Netgsm Sms Paketi",
     "version": "1.0.0",
+    "type": "library",
     "keywords": [
         "sms",
         "netgsm",
-        "laravel 5",
+        "laravel ^5.4",
         "sms api",
         "baslikli sms",
         "laravel"
     ],
-    "homepage": "https://github.com/phpuzem/netgsm",
-    "authors": [
-        {
-            "name": "Halil Coşdu",
-            "email": "info@phpuzem.com"
-        }
-    ],
+    "homepage": "https://github.com/usameavci/netgsm",
+    "authors": [{
+        "name": "Halil Coşdu",
+        "email": "info@usameavci.com"
+    }, {
+        "name": "Üsame Fethullah AVCI",
+        "email": "usameavci@gmail.com",
+        "homepage": "https://github.com/usameavci"
+    }],
     "license": "MIT License",
-    "require": {},
+    "require": {
+        "php": "^5.6.4 || ^7.0",
+        "laravel/framework": "^5.4"
+    },
     "autoload": {
         "psr-0": {
             "Phpuzem\\Netgsm\\": "src"
