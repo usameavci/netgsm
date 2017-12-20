@@ -1,6 +1,7 @@
 {
     "name": "phpuzem/sms",
     "description": "Netgsm Sms Paketi",
+    "version": "1.0.0",
     "keywords": [
         "sms",
         "netgsm",
