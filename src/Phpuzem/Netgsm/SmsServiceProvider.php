@@ -25,10 +25,10 @@ class SmsServiceProvider extends ServiceProvider {
      */
     public function register()
     {
-        $this->app['sms'] = $this->app->share(function($app)
-        {
+        $this->app->singleton('sms', function ($app) {
             return new SmsManagement;
         });
+
         $this->app->alias('sms', 'Phpuzem\Netgsm\SmsManagement');
     }
 
